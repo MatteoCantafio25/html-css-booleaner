@@ -1,6 +1,8 @@
-*{
-    margin: auto;
-    
+.container{
+    max-width: 1480px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
 }
 
 
@@ -9,10 +11,10 @@
     width: 1480px;
     height: 135px;
     background-color: rgb(106, 181, 252);
-    background-image: url(/img/pattern.png);
+    background-image: url(img/pattern.png);
     background-size: 30%;
     background-repeat: repeat;
-    margin:auto;
+    /*margin:auto;  */
 }
 
 #logo{
@@ -23,14 +25,14 @@
 
 .title{
     font-size: 20px;
-    margin-left: 14%;
+    /*margin-left: 14%; */
     margin-top: 30px;
 }
 
 #scrittoda{
     color: rgba(75, 73, 73, 0.61);
     font-size: 25px;
-    margin-left: 14%;
+    /*margin-left: 14%; */
 }
 
 #booleaner{
@@ -39,22 +41,21 @@
 
 #date{
     color: rgba(75, 73, 73, 0.61);
-    margin-left: 14%;
+    /*margin-left: 14%; */
 }
 
 .tim{
-    margin-left: 14%;
+    /*margin-left: 14%; */
     margin-top: 20px;
 }
 
 #tim-photo-info{
-    margin-left: 14%;
+    /*margin-left: 14%; */
 }
 
 p{
-    margin-left: 14%;
+    /*margin-left: 14%; */
     margin-top: 20px;
-    margin-right: 14%;
     font-size: 25px;
 }
 
@@ -63,14 +64,13 @@ p{
 }
 
 ul{
-    margin-left: 13%;
     margin-top: 20px;
-    margin-right: 14%;
     font-size: 25px;
+    padding-left: 20px;
 }
 
 table{
-    margin-left: 14%;
+    /*margin-left: 14%; */
     margin-top: 20px;
     margin-right: 14%;
     font-size: 25px;
@@ -80,16 +80,16 @@ table{
 #potrebbero{
     color: rgba(75, 73, 73, 0.61);
     font-size: 25px;
-    margin-left: 14%;
+    /*margin-left: 14%; */
     margin-top: 20px;
 }
 
 .desktop{
     width: 200px;
     height: 200px;
-    background-image: url(/img/monitor.jpg);
+    background-image: url(img/monitor.jpg);
     background-repeat: no-repeat;
-    margin-left: 14%;
+    /*margin-left: 14%; */
     margin-top: 20px;
     font-size: 20px;
     color: white;
@@ -98,10 +98,19 @@ table{
 .graphic{
     width: 200px;
     height: 200px;
-    background-image: url(/img/graph.jpg);
+    background-image: url(img/graph.jpg);
     background-repeat: no-repeat;
-    margin-left: 14%;
+    /*margin-left: 14%; */
     font-size: 20px;
     color: white;
     margin-top: 5px;
+}
+
+td{
+    width: 400px
+    
+}
+
+th{
+    text-align: left;
 }
