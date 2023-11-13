@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     max-width: 1480px;
     padding-left: 10%;
@@ -14,7 +19,6 @@
     background-image: url(img/pattern.png);
     background-size: 30%;
     background-repeat: repeat;
-    /*margin:auto;  */
 }
 
 #logo{
@@ -25,14 +29,17 @@
 
 .title{
     font-size: 20px;
-    /*margin-left: 14%; */
-    margin-top: 30px;
+    margin-bottom: 0;
+}
+h1{
+    margin-bottom: 0;
 }
 
 #scrittoda{
     color: rgba(75, 73, 73, 0.61);
     font-size: 25px;
-    /*margin-left: 14%; */
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 #booleaner{
@@ -41,20 +48,15 @@
 
 #date{
     color: rgba(75, 73, 73, 0.61);
-    /*margin-left: 14%; */
+    margin-top: 0;
 }
 
 .tim{
-    /*margin-left: 14%; */
     margin-top: 20px;
 }
 
-#tim-photo-info{
-    /*margin-left: 14%; */
-}
 
 p{
-    /*margin-left: 14%; */
     margin-top: 20px;
     font-size: 25px;
 }
@@ -70,17 +72,17 @@ ul{
 }
 
 table{
-    /*margin-left: 14%; */
+    width: 100%;
     margin-top: 20px;
-    margin-right: 14%;
     font-size: 25px;
-    
+    border-collapse: unset;
+    border-color: blue;
+    border: none\;
 }
 
 #potrebbero{
     color: rgba(75, 73, 73, 0.61);
     font-size: 25px;
-    /*margin-left: 14%; */
     margin-top: 20px;
 }
 
@@ -89,7 +91,6 @@ table{
     height: 200px;
     background-image: url(img/monitor.jpg);
     background-repeat: no-repeat;
-    /*margin-left: 14%; */
     margin-top: 20px;
     font-size: 20px;
     color: white;
@@ -100,7 +101,6 @@ table{
     height: 200px;
     background-image: url(img/graph.jpg);
     background-repeat: no-repeat;
-    /*margin-left: 14%; */
     font-size: 20px;
     color: white;
     margin-top: 5px;
@@ -113,4 +113,21 @@ td{
 
 th{
     text-align: left;
+}
+
+.column-width{
+    width: 25%;
+}
+
+.color-table-header{
+    background-color: rgb(37, 182, 250);
+    color:white;  
+}
+
+.coloredrow{
+    background-color: rgb(178, 228, 245);
+}
+
+.photos-info{
+    margin-top: 0;
 }
