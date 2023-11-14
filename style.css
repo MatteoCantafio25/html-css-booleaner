@@ -77,7 +77,7 @@ table{
     font-size: 25px;
     border-collapse: unset;
     border-color: blue;
-    border: none\;
+    border: none;
 }
 
 #potrebbero{
@@ -130,4 +130,5 @@ th{
 
 .photos-info{
     margin-top: 0;
+    
 }
